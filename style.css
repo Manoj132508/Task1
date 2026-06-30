@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(
+    90deg,
+    #e37777 1%,
+    #f2554c 38%,
+    #fec458 61%,
+    #fec957 84%,
+    #db788d 90%
+  );
+  height: 600px;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-navbar a {
+  text-decoration: none;
+  color: #ffff;
+  margin: 0 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.header-navbar a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+.header-navbar h1 {
+  font-family: "Lekton", monospace;
+  font-size: 34px;
+  font-weight: bold;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 100px;
+}
+.header-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+ 
+}
+ .header-content h1,p{
+    color: #fff;
+  
+}
+.header-content h1
+{
+    font-family:"poppins", sans-serif;
+    font-size: 94px;
+    font-weight: bold;
+}
+.header-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.company-logos {
+padding: 20px 0px;
+margin-top: 20px;
+text-align: center;
+}
+.company-logos h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color:#B2B7BE;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+.company-logos div{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #dadada;
+  color: #fff;
+  border: 2px solid #b8b8b8;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.secondary-btn {
+  background-color:#231A36;
+
+}
+
+.btn:hover {
+  background-color: #e7ba66;
+  border-color: #7a684d;
+}
+
+@media (max-width: 827px) {
+  .header-navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .header-navbar a {
+    margin: 0;
+  }
+
+.header-content-text
+{
+  text-align: center;
+    width: 100%;
+}
+.header-content h1 
+{
+width: 100%;
+font-size: 60px;
+
+}
+.header-content p{
+    display:inline;
+} 
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+   flex-wrap: wrap;
+}
+}
